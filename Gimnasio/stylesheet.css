@@ -1,16 +1,28 @@
+html{
+    background-color:black;
+}
+
 h1, p{
     padding:10px;
+}
+
+.clases-dirigidas{
+    text-align: center;
+    font-weight: bold;
 }
 
 table {
     color: blue;
     background-color: white;
     margin-block-end: 100px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 table tr>*{
     padding: 10px 20px;
     border-bottom: 1px solid blue;
+    
 }
 
 table th{
@@ -40,5 +52,32 @@ form [type=text], form [type=email], form textarea{
 .carousel-slide{
     width: 50em;
     margin: 0 auto;
- 
+
 }
+
+ body footer{
+    margin-top: 50px;
+    background-color: black;
+    margin-bottom: none;
+    color: white;
+}
+
+body footer table th, tr{
+    color: green;
+    border: 0px;
+}
+
+
+.imagenes-instalaciones{
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.otras-instalaciones{
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+
+}
+

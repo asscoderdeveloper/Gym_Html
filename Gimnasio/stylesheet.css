@@ -52,21 +52,31 @@ form [type=text], form [type=email], form textarea{
 .carousel-slide{
     width: 50em;
     margin: 0 auto;
-
+    margin-bottom: 50px;
 }
 
- body footer{
-    margin-top: 50px;
+
+footer{
     background-color: black;
-    margin-bottom: none;
     color: white;
+    
 }
 
-body footer table th, tr{
-    color: green;
+footer p{
+    text-align: left;
+
+    padding: auto;
+}
+
+footer table{
+    background-color: ;
+    float: auto;
+}
+
+footer table th, footer table th a{
+    color: black;
     border: 0px;
 }
-
 
 .imagenes-instalaciones{
     padding: 10px;
@@ -81,3 +91,18 @@ body footer table th, tr{
 
 }
 
+.footer-contacto{
+    background-color: black;
+    color: white;
+    margin-top: 195px;
+}
+
+.footer-contacto table{
+    background-color: ;
+    float: auto;
+}
+
+.footer-contacto table th, .footer-contacto table th a {
+    color: black;
+    border: 0px;
+}
